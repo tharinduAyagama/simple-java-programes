@@ -15,5 +15,17 @@ class grafic extends JPanel{
 
         g.setColor(Color.BLACK);
         g.drawString("simple graphic", 25, 150);
+
+        g.setColor(Color.ORANGE);
+        g.drawRect(25, 170, 100, 25);
+
+        g.setColor(Color.PINK);
+        g.fillOval(25, 220, 100, 25);
+
+        g.setColor(Color.GREEN);
+        g.drawLine(25, 300, 100, 300);
+
+        g.setColor(Color.YELLOW);
+        g.fill3DRect(25, 320, 100, 25, true);
     }
 }

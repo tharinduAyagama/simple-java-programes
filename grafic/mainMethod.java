@@ -6,7 +6,7 @@ public class mainMethod{
         x.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         grafic gObject = new grafic();
         x.add(gObject);
-        x.setSize(500 , 500);
+        x.setSize(500 , 750);
         x.setVisible(true);
     }
 }
